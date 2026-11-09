@@ -1,9 +1,3 @@
-import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
 import streamlit as st, sqlite3, hashlib, secrets, re, os, datetime as dt
 import pandas as pd
 from html import escape as esc
